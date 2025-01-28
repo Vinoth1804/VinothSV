@@ -19,7 +19,7 @@ const projects = [
   },
 ];
 
-function Projects({id}) {
+function Projects({ id }: { id: string }) {
   return (
     <div className="p-8 bg-gradient-to-r from-teal-400 to-cyan-500" id={id}>
       <p className="text-white text-xl font-semibold mb-2">PROJECTS</p>

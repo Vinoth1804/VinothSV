@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 // Assuming ModelViewer is imported correctly
 import ModelViewer from '@metamask/logo';
 
-function Main({ id }) {
+function Main({ id }: { id: string }) {
   useEffect(() => {
     const viewer = ModelViewer({
       pxNotRatio: true,

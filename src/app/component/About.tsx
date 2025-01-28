@@ -1,6 +1,6 @@
 import React from "react";
 
-function About({ id }) {
+function About({ id }: { id: string }) {
   return (
     <div id={id} className="p-8  bg-gray-100 flex flex-col md:flex-row items-center gap-12">
       {/* Left Side - Text Content */}

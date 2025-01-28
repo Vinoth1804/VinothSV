@@ -18,7 +18,7 @@ const skills = [
   { name: "Microsoft Azure", icon: <TfiMicrosoftAlt className="text-blue-800 text-4xl" /> },
 ];
 
-function Skills({id}) {
+function Skills({ id }: { id: string }) {
   return (
     <div className="p-8 bg-gray-100" id={id}> {/* Applied light grey background */}
       <p className="text-green-500 text-xl font-semibold mb-4">Skills</p>

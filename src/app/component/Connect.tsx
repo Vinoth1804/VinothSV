@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 
-function Connect({id}) {
+function Connect({ id }: { id: string }) {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
   const [isSent, setIsSent] = useState(false);
 
