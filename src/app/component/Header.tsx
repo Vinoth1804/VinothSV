@@ -61,7 +61,7 @@ function Header() {
           {/* Menu Items */}
           <div className="space-y-4 py-6 px-6">
             <div className="block border-b-2 border-dashed py-[56px]">
-              <span className="flex items-center justify-center">Let's Build</span>
+              <span className="flex items-center justify-center">Lets Build</span>
             </div>
             <a href="#home" className="flex items-center justify-center hover:text-yellow-400 transition duration-300 cursor-pointer py-2" onClick={toggleMenu}>
               Home

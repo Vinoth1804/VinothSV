@@ -53,7 +53,7 @@ function Main({ id }) {
 
           {/* Description */}
           <p className="text-gray-300 max-w-md mx-auto md:mx-0">
-            I'm currently a student looking for opportunities to collaborate and learn new skills.
+            Im currently a student looking for opportunities to collaborate and learn new skills.
           </p>
 
           {/* Social Media Icons */}

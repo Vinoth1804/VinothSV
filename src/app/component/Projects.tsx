@@ -23,7 +23,7 @@ function Projects({id}) {
   return (
     <div className="p-8 bg-gradient-to-r from-teal-400 to-cyan-500" id={id}>
       <p className="text-white text-xl font-semibold mb-2">PROJECTS</p>
-      <h2 className="text-3xl text-white font-bold mb-6">What I've Built</h2>
+      <h2 className="text-3xl text-white font-bold mb-6">What I Built</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {projects.map((project, index) => (
