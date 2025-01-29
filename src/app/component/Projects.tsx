@@ -37,12 +37,13 @@ function Projects({ id }: { id: string }) {
 
             {/* Image Wrapper */}
             <div className="relative overflow-hidden rounded-lg">
+              {/* Image */}
               <Image
                 src={project.image}
                 alt={project.name}
-                layout="fill"
-                objectFit="cover"
-                className="rounded-lg transition-transform duration-300 group-hover:scale-110 group-hover:opacity-80"
+                width={500} // Adjust width as needed
+  height={300} // Adjust height as needed
+                className="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-110 group-hover:opacity-80"
               />
 
               {/* Overlay with Clickable "More Info" */}
