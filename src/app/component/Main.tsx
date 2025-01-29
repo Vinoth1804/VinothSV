@@ -55,7 +55,7 @@ function Main({ id }: { id: string }) {
 
 {/* Description */}
 <p className="text-gray-300 max-w-md mx-auto md:mx-0">
-  As a dedicated student with a fervor for technology, I am actively seeking opportunities to collaborate on impactful projects, expand my skill set, and contribute to innovative solutions. Let's build something extraordinary together!
+  As a dedicated student with a fervor for technology, I&apos;am actively seeking opportunities to collaborate on impactful projects, expand my skill set, and contribute to innovative solutions. Let&apos;s build something extraordinary together!
 </p>
           {/* Social Media Icons */}
           <div className="flex justify-center md:justify-start space-x-6 mt-6 text-2xl">

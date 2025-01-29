@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 
 function Connect({ id }: { id: string }) {
@@ -31,7 +31,7 @@ function Connect({ id }: { id: string }) {
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-teal-500 to-cyan-600 p-6"
     id={id}>
       <div className="bg-white/10 backdrop-blur-lg shadow-xl rounded-lg p-8 w-full max-w-lg">
-        <h2 className="text-3xl font-bold text-white text-center">Lets Connect!</h2>
+        <h2 className="text-3xl font-bold text-white text-center">Let&apos;s Connect!</h2>
         <p className="text-gray-300 text-center mt-2">Have a question or want to collaborate?</p>
 
         {isSent && <p className="text-green-400 text-center mt-4">✅ Message Sent Successfully!</p>}

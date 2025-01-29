@@ -11,8 +11,7 @@ function About({ id }: { id: string }) {
           Who I am
         </h2>
         <p className="text-gray-600 italic text-lg">
-          I am currently a Master student specializing in Blockchain Technology.
-        </p>
+      I&apos;m currently a Master student specializing in Blockchain Technology.</p>
 
         <p className="text-gray-700 leading-relaxed">
           Technology has always been at the heart of my aspirations. I honed my skills in JavaScript, Python, and blockchain, enabling me to develop scalable and innovative solutions. During my career,
