@@ -69,7 +69,7 @@ function Connect({ id }: { id: string }) {
 
           <button
             type="submit"
-            className="w-full p-3 mt-4 bg-green-500 text-white font-semibold rounded-lg  transition-transform transform hover:scale-105"
+            className="w-full p-3 mt-4 bg-gradient-to-r from-green-600 to-blue-300  text-white font-semibold rounded-lg  transition-transform transform hover:scale-105"
           >
             Send Message 🚀
           </button>
@@ -80,12 +80,10 @@ function Connect({ id }: { id: string }) {
           <a href="https://github.com/Vinoth1804" target="_blank" className="text-white text-2xl hover:text-gray-300">
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" className="text-white text-2xl hover:text-gray-300">
+          <a href="https://linkedin.com/in/vinothkumar-mohanraj" target="_blank" className="text-white text-2xl hover:text-gray-300">
             <FaLinkedin />
           </a>
-          <a href="https://twitter.com/yourprofile" target="_blank" className="text-white text-2xl hover:text-gray-300">
-            <FaTwitter />
-          </a>
+         
         </div>
       </div>
     </div>

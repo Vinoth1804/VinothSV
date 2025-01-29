@@ -21,8 +21,11 @@ const skills = [
 function Skills({ id }: { id: string }) {
   return (
     <div className="p-8 bg-gray-100" id={id}> {/* Applied light grey background */}
-      <p className="text-green-500 text-xl font-semibold mb-4">Skills</p>
-      <h2 className="text-3xl font-bold mb-6">What I can do</h2>
+      <p className="text-black text-xl font-semibold mb-4">Skills</p>
+      <h2 className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent text-3xl font-bold mb-6">
+  What I can do
+</h2>
+
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
         {skills.map((skill, index) => (
           <div

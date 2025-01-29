@@ -41,8 +41,8 @@ function Projects({ id }: { id: string }) {
               <Image
                 src={project.image}
                 alt={project.name}
-                width={500} // Adjust width as needed
-  height={300} // Adjust height as needed
+                width={300} // Adjust width as needed
+  height={500} // Adjust height as needed
                 className="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-110 group-hover:opacity-80"
               />
 

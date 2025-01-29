@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { FaCode, FaLightbulb } from "react-icons/fa";
+
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +30,8 @@ function Header() {
       <nav className="container mx-auto py-4 flex items-center justify-between px-6">
         {/* Brand Name */}
         <div className="text-white font-bold text-2xl">
-          <a href="#" className="hover:text-yellow-400 transition duration-300">VK</a>
+          <a href="#" className="hover:text-yellow-400 transition duration-300">
+          <i className="fas fa-laptop-code text-yellow-400"></i> </a>
         </div>
 
         {/* Hamburger Menu Button (Mobile) */}

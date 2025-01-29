@@ -41,28 +41,27 @@ function Main({ id }: { id: string }) {
         <div className="w-full md:w-2/3 text-center md:text-left space-y-6">
           {/* Subtitle */}
           <p className="text-sm tracking-wide text-gray-200 uppercase">
-            Aspiring Software Engineer
-          </p>
+  Passionate Coder | Innovative Thinker | Continuous Growth Enthusiast
+</p>
 
-          {/* Main Heading */}
-          <h1 className="text-4xl md:text-5xl font-extrabold text-white">
-            Hi, I am <span className="text-green-400">Vinoth</span>
-          </h1>
+{/* Main Heading */}
+<h1 className="text-4xl md:text-5xl font-extrabold text-white">
+  <span className="text-green-400">Vinoth</span> – Crafting Solutions, One Line at a Time
+</h1>
 
-          <h2 className="text-2xl md:text-3xl font-medium text-gray-100">
-            Looking for enriching experiences
-          </h2>
+<h2 className="text-2xl md:text-3xl font-medium text-gray-100">
+  Eager to Contribute, Learn, and Grow
+</h2>
 
-          {/* Description */}
-          <p className="text-gray-300 max-w-md mx-auto md:mx-0">
-            Im currently a student looking for opportunities to collaborate and learn new skills.
-          </p>
-
+{/* Description */}
+<p className="text-gray-300 max-w-md mx-auto md:mx-0">
+  As a dedicated student with a fervor for technology, I am actively seeking opportunities to collaborate on impactful projects, expand my skill set, and contribute to innovative solutions. Let's build something extraordinary together!
+</p>
           {/* Social Media Icons */}
           <div className="flex justify-center md:justify-start space-x-6 mt-6 text-2xl">
             <a
               href="https://www.linkedin.com/in/vinothkumar-mohanraj/"
-              className="text-blue-400 hover:text-blue-500 transition duration-300"
+              className="text-blue-800 hover:text-blue-500 transition duration-300"
               aria-label="LinkedIn"
             >
               <i className="fab fa-linkedin"></i>
@@ -76,7 +75,7 @@ function Main({ id }: { id: string }) {
             </a>
             <a
               href="mailto:vinothkumarmohanraj13@gmail.com"
-              className="text-red-400 hover:text-red-500 transition duration-300"
+              className="text-red-800 hover:text-red-500 transition duration-300"
               aria-label="Email"
             >
               <i className="fas fa-envelope"></i>
