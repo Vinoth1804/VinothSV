@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const projects = [
   {
@@ -36,11 +37,12 @@ function Projects({ id }: { id: string }) {
 
             {/* Image Wrapper */}
             <div className="relative overflow-hidden rounded-lg">
-              {/* Image */}
-              <img
+              <Image
                 src={project.image}
                 alt={project.name}
-                className="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-110 group-hover:opacity-80"
+                layout="fill"
+                objectFit="cover"
+                className="rounded-lg transition-transform duration-300 group-hover:scale-110 group-hover:opacity-80"
               />
 
               {/* Overlay with Clickable "More Info" */}

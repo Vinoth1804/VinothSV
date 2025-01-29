@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function About({ id }: { id: string }) {
   return (
@@ -28,13 +29,15 @@ function About({ id }: { id: string }) {
       </div>
 
       {/* Right Side - Image */}
-      <div className="ml-auto md:w-1/3 flex justify-center">
-        <img 
+        <Image 
           src="/bit.jpg"  // Replace with actual image path
           alt="Laptop with glowing colors"
           className="rounded-lg shadow-lg w-full"
+          width={500} // Add appropriate width
+          height={500} // Add appropriate height
         />
-      </div>
+      
+      
     </div>
   );
 }

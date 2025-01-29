@@ -6,11 +6,12 @@ function Connect({ id }: { id: string }) {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
   const [isSent, setIsSent] = useState(false);
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
+  
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     const serviceID = "service_sggkq97"; // Replace with your EmailJS Service ID
@@ -59,7 +60,7 @@ function Connect({ id }: { id: string }) {
           <textarea
             name="message"
             placeholder="Your Message"
-            rows="4"
+            rows={4}
             value={formData.message}
             onChange={handleChange}
             className="w-full p-3 rounded-lg bg-white/20 text-white placeholder-gray-300 focus:ring-2 focus:ring-indigo-400"

@@ -14,7 +14,9 @@ function Main({ id }: { id: string }) {
     });
 
     const container = document.getElementById('logo-container');
-    container.appendChild(viewer.container);
+    if (container) {
+      container.appendChild(viewer.container);
+    }
 
     viewer.lookAt({ x: 100, y: 100 });
     viewer.setFollowMouse(true);
